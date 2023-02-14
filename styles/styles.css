@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+}
+
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+}
+.navBarText{
+        font-family: 'Lato', sans-serif;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 150px;
+        height: 80px;        /* if you want it to take the full height of the bar */
+        line-height: 180px;    /* if you want it vertically middle of the navbar */
+        color: white;
+        font-size: larger;
+        text-decoration: none;
+
+    }
+
+
+.navigation-bar > a:visited{
+    color: white;
+}
+.navigation-bar > a:hover{
+    color: blue;
+}
+
+.navigation-bar > a:active{
+    color: white;
+}
+
+
+.logonav{
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+    margin-left: 100px;;
+}
+.navBotLine{
+    margin-top: 100px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: right;
+}
